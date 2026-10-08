@@ -1,0 +1,8 @@
+{
+  "firestore": [
+    {
+      "database": "ai-studio-android-vihaanho-c89988eb-cb94-4aae-8250-cde26e45a43f",
+      "rules": "firestore.rules"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Vihaan Home Services",
+  "description": "Professional home services marketplace for grooming, cleaning, repairs, emergency services and AI concierge.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

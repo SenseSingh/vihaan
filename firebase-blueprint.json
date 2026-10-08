@@ -1,0 +1,30 @@
+{
+  "entities": {
+    "users": {
+      "path": "users/{userId}",
+      "fields": {
+        "userId": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "phone": { "type": "string" },
+        "role": { "type": "string" },
+        "walletBalance": { "type": "number" },
+        "rewardPoints": { "type": "number" },
+        "membership": { "type": "string" }
+      }
+    },
+    "bookings": {
+      "path": "users/{userId}/bookings/{bookingId}",
+      "fields": {
+        "bookingId": { "type": "string" },
+        "serviceId": { "type": "string" },
+        "serviceName": { "type": "string" },
+        "date": { "type": "string" },
+        "time": { "type": "string" },
+        "status": { "type": "string" },
+        "amount": { "type": "number" },
+        "professionalName": { "type": "string" }
+      }
+    }
+  }
+}
